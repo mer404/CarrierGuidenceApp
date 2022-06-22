@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_260sdp"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/woman_ui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Easy to fill\nquestionnare"
+        android:textColor="#2E2A2A"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Fill a quick questionnaire to get the\ncareer path you're meant for!"
+        android:textColor="#403636"
+        android:textSize="@dimen/_13sdp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@drawable/round_second"
+            android:backgroundTint="#9A93AA" />
+
+        <ImageView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_9sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@drawable/round" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@drawable/round_second"
+            android:backgroundTint="#9A93AA" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_70sdp">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSkipSecond"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_29sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:text="skip"
+            android:textAllCaps="false"
+            android:textColor="#853688"
+            android:textSize="@dimen/_10ssp" />
+
+        <Button
+            android:id="@+id/btnNextSecond"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/purple_700"
+            android:gravity="center"
+            android:text="next"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_10sdp" />
+
+
+    </LinearLayout>
+</LinearLayout>
